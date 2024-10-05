@@ -1,0 +1,17 @@
+.service{
+    max-width: 80vw;
+    margin: 3rem auto 7rem;
+}
+
+.number{
+    padding: 1.5rem 0;
+    font-weight: 700;
+}
+
+.service1 ul li{
+    font-weight: 400;
+    line-height: 2;
+    list-style-type: disc;
+    padding: 0.5rem 0;
+}
+

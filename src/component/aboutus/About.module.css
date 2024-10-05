@@ -1,0 +1,43 @@
+.about{
+    max-width: 80vw;
+    margin: 6rem auto;
+}
+
+.h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.small{
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.p, .pt{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.border1{
+    border-bottom: 1px solid #000;
+    padding-bottom: 2rem;
+}
+
+.pt{
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 759.99px) {
+    .about{
+        max-width: 90vw;
+    }
+
+    .about h2, .about p{
+        font-size: 0.9rem;
+    }
+}

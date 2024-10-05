@@ -1,0 +1,109 @@
+/* Hero Section */
+.hero {
+  background-image: url("/src/assets/bg-image.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.heroSection {
+  color: #fff;
+  max-width: 80vw;
+  margin: auto;
+  padding: 15rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+.h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+  width: 70%;
+  line-height: 1.2;
+}
+
+.link {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #eb2e28;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-color: #7b0602;
+}
+/* Hero Section Refinements for typewriter */
+.small {
+  text-align: center;
+  height: fit-content; /* Allow it to grow as needed */
+  position: absolute;
+  bottom: 1px;
+} 
+
+.span1 {
+  background-color: #4a0404;
+  padding: 1.5rem .5rem 3.5rem;
+}
+
+.span {
+  background: rgba(60, 60, 60, 0.8);
+  padding: 1.5rem 1rem 3.5rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 759.99px) {
+  .hero {
+    padding: 0;
+  }
+
+  .heroSection {
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Slightly larger for better visibility */
+    width: 90%;
+  }
+
+  .p {
+    text-align: center;
+    font-size: 1rem; /* Increase font size for readability */
+  }
+
+  .link {
+    font-size: 0.8rem; /* Adjust size for smaller screens */
+  }
+
+
+  .span1, .span {
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet responsiveness */
+@media screen and (min-width: 760px) and (max-width: 1023.99px) {
+  .heroSection {
+    padding: 12rem 0;
+  }
+
+  .h1 {
+    font-size: 2.8rem;
+  }
+
+
+  .span1, .span {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}

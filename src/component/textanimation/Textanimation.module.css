@@ -1,0 +1,38 @@
+.typewriterContainer {
+    display: inline-block; 
+    font-size: 1.2rem; 
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+  
+/* Optional: Additional styling for cursor or text */
+.typewriterContainer span {
+    white-space: nowrap;
+}
+
+.curs{
+    font-size: 1.2rem;
+    color: red;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 759.99px) {
+    .typewriterContainer {
+        font-size: 0.8rem; 
+        white-space: normal;
+        word-break: break-word; 
+    }
+    
+    .typewriterContainer span {
+        white-space: normal;
+    }
+
+    .curs{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+  
+  

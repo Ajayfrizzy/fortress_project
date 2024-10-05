@@ -1,0 +1,151 @@
+/* General Styles */
+header {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+/* .logo {
+    width: 7rem;
+}
+
+.logo img {
+    width: 100%;
+} */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 70%;
+}
+
+.ul {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.link,
+.getStarted {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #FBA72B;
+    border-bottom: 2px solid #FBA72B;
+}
+
+.getStarted {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #EB2E28;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.getStarted:hover {
+    background-color: #7b0602;
+}
+
+/* Hamburger Icon */
+.icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 999px) {
+    .menu {
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        z-index: 10;
+    }
+
+    .menu.active {
+        display: flex; 
+    }
+
+    .logo {
+        width: 6rem;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .ul li {
+        padding: 0.5rem 0;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .df {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        max-width: 95vw;
+    }
+
+    .logo {
+        width: 5rem;
+    }
+
+    .getStarted {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Animation for the menu */
+.menu.active {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

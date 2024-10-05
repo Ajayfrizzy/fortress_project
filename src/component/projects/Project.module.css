@@ -1,0 +1,57 @@
+.experiences {
+  max-width: 80vw;
+  margin: 1rem auto 12rem;
+}
+
+.experiences h2 {
+  text-align: justify;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.project {
+  width: 45%;
+  height: fit-content;
+}
+
+.img {
+  /* width: 100%; */
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.img img {
+  width: 70%;
+}
+
+.project h3,
+.project p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 759.99px) {
+  .experiences h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .flexBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 100%;
+  }
+}

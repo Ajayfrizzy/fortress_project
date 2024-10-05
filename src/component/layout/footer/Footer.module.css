@@ -1,0 +1,107 @@
+.footer {
+  background-color: #4a0404;
+}
+
+.footerDetails {
+  max-width: 80vw;
+  margin: auto;
+  padding: 3rem 0;
+  color: #fff;
+}
+
+/* .btLogo{
+    width: 5rem;
+}
+
+.btLogo img{
+    width: 100%;
+} */
+
+.footerFlex {
+  display: flex;
+}
+
+.link,
+.span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover,
+.span a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.lText {
+  margin: 2rem 0 0;
+  padding-right: 10rem;
+}
+
+.lText small,
+.lText address {
+  padding: 1.5rem 0;
+  font-size: 1rem;
+}
+
+.rText {
+  width: 80%;
+  border-right: 1px solid #fff;
+  height: 70%;
+}
+
+.navFlex {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.navFlex ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+.contact {
+  margin-top: 2.5rem;
+}
+
+.span {
+  display: block;
+}
+
+@media screen and (max-width: 759.99px) {
+  .footerFlex {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btLogo {
+    margin: auto;
+    width: 6rem;
+  }
+
+  .btLogo img {
+    width: 100%;
+  }
+
+  .navFlex {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .rText {
+    border-right: none;
+    padding: 1rem 0;
+    margin: auto;
+  }
+
+  .lText {
+    padding-right: 0;
+  }
+
+  .contact span {
+    padding: 0.5rem 0;
+    display: block;
+  }
+}

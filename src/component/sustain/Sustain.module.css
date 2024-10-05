@@ -1,0 +1,24 @@
+.sustain{
+    max-width: 80vw;
+    margin: 3rem auto 7rem;
+}
+
+.sustain h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.sustain p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 759.99px) {
+    .sustain h2{
+        font-size: 1.5rem;
+    }
+    .sustain p{
+        font-size: 1rem;
+    }
+}
