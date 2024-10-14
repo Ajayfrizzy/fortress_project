@@ -32,7 +32,7 @@ const Project = () => {
             <div className={Styles.img}>
             <img src={logo} alt="logo" />
             </div>
-            <h3>Indorama 18” x 83 km Gas Pipeline Project</h3>
+            <h3>Ugbele 18” x 83 km Gas Pipeline Project</h3>
             <p>Completed the design and construction of an 18-inch, 83-kilometer gas pipeline for Indorama, contributing to improved energy distribution and operational efficiency.
             </p>
         </div>
@@ -40,7 +40,7 @@ const Project = () => {
             <div className={Styles.img}>
             <img src={logo} alt="logo" />
             </div>
-            <h3>Olorunsogo 24” x 21 km Gas Pipeline Project</h3>
+            <h3>Egbema 24” x 21 km Gas Pipeline Project</h3>
             <p>Managed the construction of a 24-inch, 21-kilometer gas pipeline for the Olorunsogo project, supporting enhanced gas transmission and energy infrastructure.
             </p>
         </div>
